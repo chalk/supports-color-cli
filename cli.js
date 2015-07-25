@@ -3,13 +3,25 @@
 var meow = require('meow');
 var supportsColor = require('supports-color');
 
-meow({
+var cli = meow({
 	help: [
+		'Usage',
+		'  $ supports-color [--<256|16m>]',
+		'',
+		'Options',
+		'  --256     Check for 256 color support',
+		'  --16m     Check for 16 million (truecolor) support',
+		'',
 		'Example',
 		'  $ supports-color',
+		'  $ supports-color --256',
+		'  $ supports-color --16m',
 		'',
 		'Exits with code 0 if color is supported and 1 if not'
 	]
 });
 
-process.exit(supportsColor ? 0 : 1);
+var flags = cli.flags;
+var level = flags['256'] ? 'has256' : flags['16m'] ? 'has16m' : 'hasBasic';
+
+process.exit(supportsColor[level] ? 0 : 1);

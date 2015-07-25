@@ -15,8 +15,17 @@ $ npm install --global supports-color-cli
 ```
 $ supports-color --help
 
+  Usage
+    $ supports-color [--<256|16m>]
+
+  Options
+    --256     Check for 256 color support
+    --16m     Check for 16 million (truecolor) support
+
   Example
     $ supports-color
+    $ supports-color --256
+    $ supports-color --16m
 
   Exits with code 0 if color is supported and 1 if not
 ```
