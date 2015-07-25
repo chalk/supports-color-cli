@@ -19,10 +19,10 @@ $ supports-color --help
     $ supports-color [--<256|16m>]
 
   Options
-    --256     Check for 256 color support
-    --16m     Check for 16 million (truecolor) support
+    --256   Check for 256 color support
+    --16m   Check for 16 million color support (True Color)
 
-  Example
+  Examples
     $ supports-color
     $ supports-color --256
     $ supports-color --16m
