@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable no-nested-ternary */
 'use strict';
 var meow = require('meow');
 var supportsColor = require('supports-color');
