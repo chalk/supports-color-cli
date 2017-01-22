@@ -16,11 +16,11 @@ $ npm install --global supports-color-cli
 $ supports-color --help
 
   Usage
-    $ supports-color [--<256|16m>]
+    $ supports-color
 
   Options
-    --256   Check for 256 color support
-    --16m   Check for 16 million color support (True Color)
+    --256  Check for 256 color support
+    --16m  Check for 16 million color support
 
   Examples
     $ supports-color
@@ -30,8 +30,6 @@ $ supports-color --help
   Exits with code 0 if color is supported and 1 if not
 ```
 
-You can force color by setting the environment variable `FORCE_COLOR` to any value.
-
 
 ## Related
 
@@ -40,4 +38,4 @@ You can force color by setting the environment variable `FORCE_COLOR` to any val
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

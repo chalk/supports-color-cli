@@ -10,7 +10,6 @@
     "url": "sindresorhus.com"
   },
   "maintainers": [
-    "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
     "Joshua Appelman <jappelman@xebia.com> (jbnicolai.com)",
     "JD Ballard <i.am.qix@gmail.com> (github.com/qix-)"
   ],
@@ -18,10 +17,10 @@
     "supports-color": "cli.js"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "xo && node test.js"
+    "test": "xo && ava"
   },
   "files": [
     "cli.js"
@@ -52,7 +51,8 @@
     "supports-color": "^3.0.0"
   },
   "devDependencies": {
-    "ava": "0.0.4",
+    "ava": "*",
+    "execa": "^0.6.0",
     "xo": "*"
   }
 }
