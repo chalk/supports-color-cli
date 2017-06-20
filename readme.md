@@ -36,6 +36,12 @@ $ supports-color --help
 - [supports-color](https://github.com/chalk/supports-color) - API for this module
 
 
+## Maintainers
+
+- [Sindre Sorhus](https://github.com/sindresorhus)
+- [Josh Junon](https://github.com/qix-)
+
+
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)

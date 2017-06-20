@@ -1,58 +1,54 @@
 {
-  "name": "supports-color-cli",
-  "version": "1.1.0",
-  "description": "Detect whether a terminal supports color",
-  "license": "MIT",
-  "repository": "chalk/supports-color-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "maintainers": [
-    "Joshua Appelman <jappelman@xebia.com> (jbnicolai.com)",
-    "JD Ballard <i.am.qix@gmail.com> (github.com/qix-)"
-  ],
-  "bin": {
-    "supports-color": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "color",
-    "colour",
-    "colors",
-    "terminal",
-    "console",
-    "ansi",
-    "styles",
-    "tty",
-    "rgb",
-    "256",
-    "shell",
-    "xterm",
-    "command-line",
-    "support",
-    "supports",
-    "capability",
-    "detect"
-  ],
-  "dependencies": {
-    "meow": "^3.3.0",
-    "supports-color": "^3.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.6.0",
-    "xo": "*"
-  }
+	"name": "supports-color-cli",
+	"version": "1.1.0",
+	"description": "Detect whether a terminal supports color",
+	"license": "MIT",
+	"repository": "chalk/supports-color-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"supports-color": "cli.js"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"color",
+		"colour",
+		"colors",
+		"terminal",
+		"console",
+		"ansi",
+		"styles",
+		"tty",
+		"rgb",
+		"256",
+		"shell",
+		"xterm",
+		"command-line",
+		"support",
+		"supports",
+		"capability",
+		"detect"
+	],
+	"dependencies": {
+		"meow": "^3.7.0",
+		"supports-color": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.7.0",
+		"xo": "*"
+	}
 }
