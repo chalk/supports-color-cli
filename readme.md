@@ -1,14 +1,12 @@
-# supports-color-cli [![Build Status](https://travis-ci.org/chalk/supports-color-cli.svg?branch=master)](https://travis-ci.org/chalk/supports-color-cli)
+# supports-color-cli
 
 > Detect whether a terminal supports color
-
 
 ## Install
 
 ```
 $ npm install --global supports-color-cli
 ```
-
 
 ## Usage
 
@@ -30,18 +28,11 @@ $ supports-color --help
   Exits with code 0 if color is supported and 1 if not
 ```
 
-
 ## Related
 
 - [supports-color](https://github.com/chalk/supports-color) - API for this module
-
 
 ## Maintainers
 
 - [Sindre Sorhus](https://github.com/sindresorhus)
 - [Josh Junon](https://github.com/qix-)
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
