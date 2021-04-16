@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const supportsColor = require('supports-color');
+import meow from 'meow';
+import supportsColor from 'supports-color';
 
 const cli = meow(`
 	Usage
@@ -19,7 +18,7 @@ const cli = meow(`
 	Exits with code 0 if color is supported and 1 if not
 `);
 
-const flags = cli.flags;
-const level = flags['256'] ? 'has256' : flags['16m'] ? 'has16m' : 'hasBasic';
+const {flags} = cli;
+const level = flags['256'] ? 'has256' : (flags['16m'] ? 'has16m' : 'hasBasic');
 
-process.exit(supportsColor[level] ? 0 : 1);
+process.exitCode = supportsColor[level] ? 0 : 1;
